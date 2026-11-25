@@ -1,0 +1,37 @@
+# regroupe toutes les valeur pour plus de visibilité
+CHARACTER_SCALING = 0.9
+TILE_SCALING = 1.6
+COIN_SCALING = 0.5
+
+PLAYER_MOVEMENT_SPEED = 5
+PLAYER_LADDER_SPEED = 3
+# Durée en secondes d'immunité contre les monstres pendant le spawn
+PLAYER_SPAWN_IMMUNITY_DURATION = 3
+MONSTER_MOVEMENT_SPEED_Y = 3
+MONSTER_MOVEMENT_SPEED_X = PLAYER_MOVEMENT_SPEED + 1
+MONSTER_PLATFORM_SPEED_Y = 4
+MONSTER_PLATFORM_SPEED_X = 4
+
+GRAVITY = 1
+
+PLAYER_JUMP_SPEED = 19
+
+RIGHT_FACING = 0
+LEFT_FACING = 1
+
+# coordonnés de départ de mario
+PLAYER_START_X = 100
+PLAYER_START_Y = 100
+
+# identifiants des élements de la map
+LAYER_NAME_PLATFORMS = "collision"
+LAYER_NAME_COINS = "piece"
+LAYER_NAME_FOREGROUND = "foreground"
+LAYER_NAME_BACKGROUND = "fond"
+LAYER_NAME_DONT_TOUCH = "mort"
+LAYER_NAME_FIN = "fin"
+LAYER_NAME_PLAYER = "player"
+LAYER_NAME_LADDERS = "ladders"
+LAYER_NAME_MONSTER = "monstre"
+LAYER_NAME_MOVING_PLATFORMS_Y = "moving_platform_y"
+LAYER_NAME_MOVING_PLATFORMS_X = "moving_platform_x"
