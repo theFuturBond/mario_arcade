@@ -2,7 +2,7 @@
 Implementation d'un jeu de plateforme 2D type mario avec la librairie ARCADE. A jour avec la version arcade 3.3.
 
 # Prerequis
--- Création d'un environement : 
+-- Création d'un environement en etant dans le dossier /mariogame: 
 
 python3 -m venv .venv
 
